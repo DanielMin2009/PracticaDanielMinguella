@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ProjecteDanielMinguella</string>
+
+    <string name="txtEmail">Email</string>
+    <string name="txtPassword">Password</string>
+    <!-- Txt Login -->
+    <string name="txtTitle">Title</string>
+    <string name="txtDescription">Description</string>
+    <string name="txtYear">Publication\'s year</string>
+    <string name="txtPuntuation">Puntuation</string>
+    <string name="txtImg">URL Image</string>
+    <!-- Txt -->
+    <string name="btnLogin">Login</string>
+    <string name="btnAdd">Add</string>
+    <string name="btnInspiration">Inspiration</string>
+    <string name="btnShow">Show</string>
+    <string name="btnClear">Clear</string>
+    <!-- Btn Login -->
+    <string name="userOk">Correctly logged user</string>
+    <string name="errEmail">Email field can not be empty</string>
+    <string name="errPassword">Password field can not be empty</string>
+    <!-- Btn -->
+    <string name="movieOk">Correctly added movie</string>
+    <string name="errEmpty">There is an empty field</string>
+    <string name="errEmptyTitle">Title field can not be empty</string>
+    <string name="errEmptyDescription">Description field can not be empty</string>
+    <string name="errEmptyYear">Creation\'s year field can not be empty</string>
+    <string name="errEmptyPuntuation">Puntuation field can not be empty</string>
+    <string name="errEmptyImg">URL image field can not be empty</string>
+</resources>
