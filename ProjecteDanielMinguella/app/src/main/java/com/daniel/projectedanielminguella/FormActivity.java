@@ -71,12 +71,15 @@ public class FormActivity extends AppCompatActivity {
             et_puntuation.setError(getString(R.string.errEmptyPuntuation));
             valid = false;
         } else {
+
             int puntuation = Integer.parseInt(et_puntuation.getText().toString());
-                if (puntuation > 5 && puntuation > 0) {
-                    et_puntuation.setError(getString(R.string.errPuntuation5));
-                    valid = false;
-                }
+
+            if (puntuation > 5 || puntuation < 0) {
+                et_puntuation.setError(getString(R.string.errPuntuation5));
+                valid = false;
             }
+
+        }
 
         if ("".equals(imatge)) {
             et_urlimage.setError(getString(R.string.errEmptyImg));
