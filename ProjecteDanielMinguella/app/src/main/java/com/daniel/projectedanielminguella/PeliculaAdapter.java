@@ -39,10 +39,24 @@ public class PeliculaAdapter extends ArrayAdapter<Pelicula> {
         tv_puntuation = row.findViewById(R.id.tv_puntuation);
 
         int puntuacio = data.get(position).getPuntuacio();
-        tv_puntuation.setText(puntuacio);
+        tv_puntuation.setText(String.valueOf(puntuacio));
 
-        String descripcio = data.get(position).getDescripcio();
-        tv_title.setText(descripcio);
+        String titolPeli = data.get(position).getTitol();
+        tv_title.setText(titolPeli);
+
+        int puntuation = data.get(position).getPuntuacio();
+
+        if (puntuation <= 1)
+        {
+            tv_puntuation.setTextColor(context.getResources().getColor(R.color.colorRedCorp));
+        }else if (puntuation > 1 && puntuation <= 3)
+        {
+            tv_puntuation.setTextColor(context.getResources().getColor(R.color.colorPrimaryDark));
+        }else
+        {
+            tv_puntuation.setTextColor(context.getResources().getColor(R.color.colorGreenCorp));
+        }
+
 
         return row;
     }

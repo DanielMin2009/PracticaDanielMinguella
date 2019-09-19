@@ -27,4 +27,6 @@
     <string name="errEmptyYear">Creation\'s year field can not be empty</string>
     <string name="errEmptyPuntuation">Puntuation field can not be empty</string>
     <string name="errEmptyImg">URL image field can not be empty</string>
+    <string name="errPuntuation5">Puntuation just can be from 1 to 5</string>
+
 </resources>
