@@ -2,7 +2,9 @@ package com.daniel.projectedanielminguella;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -46,5 +48,12 @@ public class LoginActivity extends AppCompatActivity {
             valid = false;
         }
         return valid;
+    }
+
+    public void goTo(View view) {
+        String text = "https://www.abc.es/play/cine/peliculas/";
+        Intent intent = new Intent(Intent.ACTION_VIEW);
+        intent.setData(Uri.parse(text));
+        startActivity(intent);
     }
 }

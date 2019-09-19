@@ -19,6 +19,7 @@
     <string name="userOk">Usuari loguejat correctement</string>
     <string name="errEmail">El camp email no pot quedar buit</string>
     <string name="errPassword">El camp contrassenya no pot quedar buit</string>
+
     <!-- Btn -->
     <string name="movieOk">Película afegida correctement</string>
     <string name="errEmpty">Hi ha alun camp buit</string>
@@ -28,4 +29,8 @@
     <string name="errEmptyPuntuation">El camp puntuació no pot quedar buit</string>
     <string name="errEmptyImg">El camp URL Imatge no pot quedar buit</string>
     <string name="errPuntuation5">La puntuació només pot anar de l\'1 al 5</string>
+
+    <!-- hint -->
+    <string name="goTo">https://www.abc.es/play/cine/peliculas/</string>
+
 </resources>
